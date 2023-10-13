@@ -1,0 +1,3 @@
+D:/Git/ITEA/Parak13_10/cmake-build-debug/CMakeFiles/Parak13_10.dir
+D:/Git/ITEA/Parak13_10/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git/ITEA/Parak13_10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
