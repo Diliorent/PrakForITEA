@@ -19,7 +19,7 @@ int main() {
         std::cin >> A;
         std::cout << "Enter B: " << std::endl;
         std::cin >> B;
-        C = A - B;
+        C = A + B;
         std::cout << "C = " << C;
     }
 
@@ -29,7 +29,7 @@ int main() {
         std::cin >> A;
         std::cout << "Enter B: " << std::endl;
         std::cin >> B;
-        C = A + B;
+        C = A - B;
         std::cout << "C = " << C;
     }
 
