@@ -1,0 +1,3 @@
+D:/Cpp/Studing/CycleZNalopichenyam/cmake-build-debug/CMakeFiles/CycleZNalopichenyam.dir
+D:/Cpp/Studing/CycleZNalopichenyam/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/Studing/CycleZNalopichenyam/cmake-build-debug/CMakeFiles/rebuild_cache.dir
