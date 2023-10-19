@@ -1,0 +1,3 @@
+D:/Cpp/Studing/DosconaliChisla/cmake-build-debug/CMakeFiles/DosconaliChisla.dir
+D:/Cpp/Studing/DosconaliChisla/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/Studing/DosconaliChisla/cmake-build-debug/CMakeFiles/rebuild_cache.dir
