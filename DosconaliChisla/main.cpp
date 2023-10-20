@@ -15,12 +15,15 @@ int main() {
         // уникнення нескінченного циклу
     }
     std::cout << "Your number is " << number << ".\nAll perfect numbers less then " << number << " is:\n";
-    for (int i = 1; perfectNumber < number; i++) {
-        perfectNumber = 1 + (((pow(2, i) - 2) * (pow(2, i) + 1)) / 2); // формула для генерації чисел
+    int i = 1;
+    while (perfectNumber < number)
+    {
         if (i == 31 || i == 19 || i == 17 || i == 13 || i == 7 || i == 5 || i == 3 ||
             i == 2) { // Степені, при яких існують досконалі числа
             std::cout << " " << perfectNumber << std::endl;
         }
+        i++;
+        perfectNumber = 1 + (((pow(2, i) - 2) * (pow(2, i) + 1)) / 2); // формула для генерації чисел
     }
     return 0;
 }
