@@ -24,7 +24,7 @@ int main() {
         std::cout << "The entered amount exceeds the allowable size of the array.";
         return 0;
     }
-    std::cout << "Array: [ ";
+    std::cout << "Array: [";
     for (int i = 0; i < num; ++i) {
         mas[i] = pow(2, i);
         std::cout << mas[i] << " ";
