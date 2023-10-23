@@ -1,0 +1,3 @@
+D:/Git/ITEA/HW/factorial/cmake-build-debug/CMakeFiles/factorial.dir
+D:/Git/ITEA/HW/factorial/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git/ITEA/HW/factorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
