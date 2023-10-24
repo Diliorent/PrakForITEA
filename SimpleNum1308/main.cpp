@@ -3,28 +3,31 @@
 #include "array"
 #include "cmath"
 
-bool isASimple(int number);
+bool isSimple(int number);
 
 int main() {
-    std::cout << "Hello, I will say you if your number is simple!" << std::endl << "Enter your number: " << std::endl;
+    std::cout << "Hello, I will say you if your number is simple!" << std::endl << "Enter your number after 1: " << std::endl;
     int num;
 
-    while (!(std::cin >> num) || num < 1) {
+    while (!(std::cin >> num) || num < 2) {
         std::cout << "Error: ";
-        if (num < 0) std::cout << "you can't enter negative amount." << std::endl;
-        else std::cout << "Not a number." << std::endl;
+        if (num < 2) std::cout << "your number is smaller than 2." << std::endl;
+        else std::cout << "not a number." << std::endl;
         std::cout << "Try again:" << std::endl;
         std::cin.clear();
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Видалення символів, для
         // уникнення нескінченного циклу
     }
-    std::cout << isASimple(num);
+    if (isSimple(num))
+    std::cout << "Your number is simple." << std::endl;
+    else
+        std::cout << "Your number is not simple." << std::endl;
     return 0;
 }
 
-bool isASimple(int number) {
+bool isSimple(int number) {
     std::array<int, 12> firstSimpleNumbers = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37};
-    int i = 0, n = 1, numberAfter41 = 41;
+    int n = 1, numberAfter41 = 41;
     bool yes = false;
     for (int firstSimpleNumber: firstSimpleNumbers) {
         yes = number == firstSimpleNumber;
