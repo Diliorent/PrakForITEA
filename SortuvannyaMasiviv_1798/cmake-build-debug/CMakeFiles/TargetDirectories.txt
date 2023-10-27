@@ -1,0 +1,3 @@
+D:/Git/ITEA/HW/SortuvannyaMasiviv_1798/cmake-build-debug/CMakeFiles/SortuvannyaMasiviv_1798.dir
+D:/Git/ITEA/HW/SortuvannyaMasiviv_1798/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git/ITEA/HW/SortuvannyaMasiviv_1798/cmake-build-debug/CMakeFiles/rebuild_cache.dir
