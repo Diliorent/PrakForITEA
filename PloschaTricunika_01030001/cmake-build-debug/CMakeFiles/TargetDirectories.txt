@@ -1,0 +1,3 @@
+D:/Cpp/Studing/Itea/PloschaTricunika_01030001/cmake-build-debug/CMakeFiles/PloschaTricunika_01030001.dir
+D:/Cpp/Studing/Itea/PloschaTricunika_01030001/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/Studing/Itea/PloschaTricunika_01030001/cmake-build-debug/CMakeFiles/rebuild_cache.dir
