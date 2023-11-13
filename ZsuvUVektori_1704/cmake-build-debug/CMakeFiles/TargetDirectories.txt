@@ -1,0 +1,3 @@
+D:/Cpp/Studing/Itea/ZsuvUVektori_1704/cmake-build-debug/CMakeFiles/ZsuvUVektori_1704.dir
+D:/Cpp/Studing/Itea/ZsuvUVektori_1704/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/Studing/Itea/ZsuvUVektori_1704/cmake-build-debug/CMakeFiles/rebuild_cache.dir
