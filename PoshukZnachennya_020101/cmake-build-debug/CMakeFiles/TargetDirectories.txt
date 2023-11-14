@@ -1,0 +1,3 @@
+D:/Cpp/Studing/Itea/PoshukZnachennya_020101/cmake-build-debug/CMakeFiles/PoshukZnachennya_020101.dir
+D:/Cpp/Studing/Itea/PoshukZnachennya_020101/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/Studing/Itea/PoshukZnachennya_020101/cmake-build-debug/CMakeFiles/rebuild_cache.dir
