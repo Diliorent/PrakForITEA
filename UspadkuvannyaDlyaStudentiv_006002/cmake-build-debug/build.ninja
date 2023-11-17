@@ -61,6 +61,12 @@ build CMakeFiles/UspadkuvannyaDlyaStudentiv_006002.dir/Person.cpp.obj: CXX_COMPI
   OBJECT_DIR = CMakeFiles\UspadkuvannyaDlyaStudentiv_006002.dir
   OBJECT_FILE_DIR = CMakeFiles\UspadkuvannyaDlyaStudentiv_006002.dir
 
+build CMakeFiles/UspadkuvannyaDlyaStudentiv_006002.dir/Student.cpp.obj: CXX_COMPILER__UspadkuvannyaDlyaStudentiv_006002_unscanned_Debug D$:/Cpp/Studing/Itea/UspadkuvannyaDlyaStudentiv_006002/Student.cpp || cmake_object_order_depends_target_UspadkuvannyaDlyaStudentiv_006002
+  DEP_FILE = CMakeFiles\UspadkuvannyaDlyaStudentiv_006002.dir\Student.cpp.obj.d
+  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\UspadkuvannyaDlyaStudentiv_006002.dir
+  OBJECT_FILE_DIR = CMakeFiles\UspadkuvannyaDlyaStudentiv_006002.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target UspadkuvannyaDlyaStudentiv_006002
@@ -69,7 +75,7 @@ build CMakeFiles/UspadkuvannyaDlyaStudentiv_006002.dir/Person.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable UspadkuvannyaDlyaStudentiv_006002.exe
 
-build UspadkuvannyaDlyaStudentiv_006002.exe: CXX_EXECUTABLE_LINKER__UspadkuvannyaDlyaStudentiv_006002_Debug CMakeFiles/UspadkuvannyaDlyaStudentiv_006002.dir/main.cpp.obj CMakeFiles/UspadkuvannyaDlyaStudentiv_006002.dir/Person.cpp.obj
+build UspadkuvannyaDlyaStudentiv_006002.exe: CXX_EXECUTABLE_LINKER__UspadkuvannyaDlyaStudentiv_006002_Debug CMakeFiles/UspadkuvannyaDlyaStudentiv_006002.dir/main.cpp.obj CMakeFiles/UspadkuvannyaDlyaStudentiv_006002.dir/Person.cpp.obj CMakeFiles/UspadkuvannyaDlyaStudentiv_006002.dir/Student.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\UspadkuvannyaDlyaStudentiv_006002.dir

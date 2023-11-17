@@ -37,21 +37,29 @@ public:
 
     void getAdditionalInformation();
 
-    void showAll();
+    virtual void showAll();
 
-    void setUniqueIdentifier(unsigned int uniqueIdentifier);
+    virtual void setUniqueIdentifier(unsigned int uniqueIdentifier);
 
-    void setName(std::string name);
+    virtual void setName(std::string name);
 
-    void setSurname(std::string surname);
+    virtual void setSurname(std::string surname);
 
-    void setPassportNumber(std::string passportNumber);
+    virtual void setPassportNumber(std::string passportNumber);
 
-    void setDateOfBirth(std::array<int, 3> dateOfBirth);
+    virtual void setDateOfBirth(std::array<int, 3> dateOfBirth);
 
-    void setAdditionalInformation(std::string additionalInformation);
+    virtual void setAdditionalInformation(std::string additionalInformation);
 
     Person();
+
+    Person(unsigned int uniqueIdentifier, std::string name,
+           std::string surname,
+           std::string passportNumber,
+           std::array<int, 3> dateOfBirth,
+           std::string additionalInformation);
+
+    virtual ~Person() = default;
 };
 
 

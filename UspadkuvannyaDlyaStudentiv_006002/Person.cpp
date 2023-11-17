@@ -25,7 +25,9 @@ void Person::getDateOfBirth() {
 }
 
 void Person::getAdditionalInformation() {
-    std::cout << "Additional  information: " << additionalInformation << std::endl;
+    if (additionalInformation != "") {
+        std::cout << "Additional  information: " << additionalInformation << std::endl;
+    }
 }
 
 void Person::setUniqueIdentifier(unsigned int uniqueIdentifier) {
@@ -59,8 +61,19 @@ Person::Person() {
     surname = "Ivanko";
     passportNumber = "000012345";
     dateOfBirth = {31, 12, 1899};
-    additionalInformation = "Additional information";
+    additionalInformation = "";
 }
+//
+//Person::Person(unsigned int uniqueIdentifier, std::string name, std::string surname, std::string passportNumber,
+//               std::array<int, 3> (*dateOfBirth)(), std::string additionalInformation) {
+//    this->uniqueIdentifier = uniqueIdentifier;
+//    this->name = name;
+//    this->surname = surname;
+//    this->passportNumber = passportNumber;
+//    this->dateOfBirth = dateOfBirth();
+//    this->additionalInformation = additionalInformation;
+//
+//}
 
 void Person::showAll() {
     getUniqueIdentifier();
@@ -69,4 +82,16 @@ void Person::showAll() {
     getPassportNumber();
     getDateOfBirth();
     getAdditionalInformation();
-};
+}
+
+Person::Person(unsigned int uniqueIdentifier, std::string name, std::string surname, std::string passportNumber,
+               std::array<int, 3> dateOfBirth, std::string additionalInformation) {
+    this->uniqueIdentifier = uniqueIdentifier;
+    this->name = name;
+    this->surname = surname;
+    this->passportNumber = passportNumber;
+    this->dateOfBirth = dateOfBirth;
+    this->additionalInformation = additionalInformation;
+}
+
+
