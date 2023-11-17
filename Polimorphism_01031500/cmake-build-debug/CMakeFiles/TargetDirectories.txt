@@ -1,0 +1,3 @@
+D:/Cpp/Studing/Itea/Polimorphism_01031500/cmake-build-debug/CMakeFiles/Polimorphism_01031500.dir
+D:/Cpp/Studing/Itea/Polimorphism_01031500/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/Studing/Itea/Polimorphism_01031500/cmake-build-debug/CMakeFiles/rebuild_cache.dir
