@@ -1,0 +1,3 @@
+D:/Cpp/Studing/Itea/Bekon_01011283/cmake-build-debug/CMakeFiles/Bekon_01011283.dir
+D:/Cpp/Studing/Itea/Bekon_01011283/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/Studing/Itea/Bekon_01011283/cmake-build-debug/CMakeFiles/rebuild_cache.dir
