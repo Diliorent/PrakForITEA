@@ -1,0 +1,3 @@
+D:/Cpp/Studing/Itea/Move_01022011/cmake-build-debug/CMakeFiles/Move_01022011.dir
+D:/Cpp/Studing/Itea/Move_01022011/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/Studing/Itea/Move_01022011/cmake-build-debug/CMakeFiles/rebuild_cache.dir
