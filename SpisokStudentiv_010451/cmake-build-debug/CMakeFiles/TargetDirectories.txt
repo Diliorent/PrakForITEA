@@ -1,0 +1,5 @@
+C:/Users/User/Documents/SpisokStudentiv_010451/cmake-build-debug/CMakeFiles/SpisokStudentiv_010451.dir
+C:/Users/User/Documents/SpisokStudentiv_010451/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/SpisokStudentiv_010451/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Documents/SpisokStudentiv_010451/cmake-build-debug/CMakeFiles/SpisokStudentiv_010451_autogen_timestamp_deps.dir
+C:/Users/User/Documents/SpisokStudentiv_010451/cmake-build-debug/CMakeFiles/SpisokStudentiv_010451_autogen.dir
