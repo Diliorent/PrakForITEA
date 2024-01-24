@@ -1,0 +1,5 @@
+C:/Users/User/Documents/Calculator_010407/cmake-build-debug/CMakeFiles/Calculator_010407.dir
+C:/Users/User/Documents/Calculator_010407/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/Calculator_010407/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Documents/Calculator_010407/cmake-build-debug/CMakeFiles/Calculator_010407_autogen_timestamp_deps.dir
+C:/Users/User/Documents/Calculator_010407/cmake-build-debug/CMakeFiles/Calculator_010407_autogen.dir
