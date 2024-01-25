@@ -64,7 +64,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(20, 10, 334, 285));
+        verticalLayoutWidget->setGeometry(QRect(20, 10, 334, 211));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setSpacing(0);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
@@ -72,7 +72,7 @@ public:
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         lineEdit = new QLineEdit(verticalLayoutWidget);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setReadOnly(true);
+        lineEdit->setReadOnly(false);
         lineEdit->setClearButtonEnabled(false);
 
         verticalLayout->addWidget(lineEdit);
@@ -228,7 +228,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        lineEdit->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
+        lineEdit->setText(QString());
         pushButton_5->setText(QCoreApplication::translate("MainWindow", "5", nullptr));
         pushButton_ostacha->setText(QCoreApplication::translate("MainWindow", "%", nullptr));
         pushButton_3->setText(QCoreApplication::translate("MainWindow", "3", nullptr));

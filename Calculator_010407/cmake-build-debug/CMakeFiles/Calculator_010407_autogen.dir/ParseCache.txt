@@ -15,7 +15,10 @@ C:/Users/User/Documents/Calculator_010407/mainwindow.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qconfig.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qcontainerfwd.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qcontainertools_impl.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qcoreevent.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qdatastream.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qfile.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qfiledevice.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qflags.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qgenericatomic.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qglobal.h
@@ -27,6 +30,7 @@ C:/Users/User/Documents/Calculator_010407/mainwindow.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qline.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qlist.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qlogging.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qmap.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qmargins.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qmetatype.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qnamespace.h
@@ -42,6 +46,7 @@ C:/Users/User/Documents/Calculator_010407/mainwindow.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qrefcount.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qregexp.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qscopedpointer.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qset.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qshareddata.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qsharedpointer.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qsharedpointer_impl.h
@@ -56,12 +61,16 @@ C:/Users/User/Documents/Calculator_010407/mainwindow.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qsystemdetection.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qtcore-config.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qtypeinfo.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qurl.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qvariant.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qvarlengtharray.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qvector.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtCore/qversiontagging.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/QKeyEvent
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qbrush.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qcolor.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qcursor.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qevent.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qfont.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qfontinfo.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qfontmetrics.h
@@ -71,19 +80,37 @@ C:/Users/User/Documents/Calculator_010407/mainwindow.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qmatrix.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qpaintdevice.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qpalette.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qpen.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qpixelformat.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qpixmap.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qpolygon.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qregion.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qrgb.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qrgba64.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qtextcursor.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qtextformat.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qtextoption.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qtgui-config.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qtguiglobal.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qtouchdevice.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qtransform.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qvector2d.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs_win.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QLineEdit
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QMainWindow
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QPushButton
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QVBoxLayout
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QWidget
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractbutton.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qboxlayout.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qgridlayout.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qlayout.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qlayoutitem.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qlineedit.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qmainwindow.h
+ mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qpushbutton.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qtabwidget.h
  mdp:C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qtwidgets-config.h

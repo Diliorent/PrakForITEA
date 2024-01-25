@@ -2,6 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QWidget>
+#include <QVBoxLayout>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QKeyEvent>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -21,7 +26,6 @@ private slots:
     void on_pushButton_AC_clicked();
     void on_pushButton_mnozhiti_clicked();
     void on_pushButton_doriv_clicked();
-    void math_operations();
 
 
     void on_pushButton_Inert_clicked();
