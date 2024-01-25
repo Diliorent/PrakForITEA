@@ -42,7 +42,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(892, 278);
+        MainWindow->resize(971, 278);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -90,22 +90,23 @@ public:
         QTableWidgetItem *__qtablewidgetitem5 = new QTableWidgetItem();
         tableWidget->setVerticalHeaderItem(0, __qtablewidgetitem5);
         tableWidget->setObjectName(QString::fromUtf8("tableWidget"));
-        tableWidget->setGeometry(QRect(10, 40, 871, 51));
+        tableWidget->setGeometry(QRect(10, 40, 861, 91));
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(tableWidget->sizePolicy().hasHeightForWidth());
         tableWidget->setSizePolicy(sizePolicy1);
+        tableWidget->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
         pushButton_Del = new QPushButton(centralwidget);
         pushButton_Del->setObjectName(QString::fromUtf8("pushButton_Del"));
-        pushButton_Del->setGeometry(QRect(120, 120, 91, 24));
+        pushButton_Del->setGeometry(QRect(120, 130, 91, 24));
         pushButton_Add = new QPushButton(centralwidget);
         pushButton_Add->setObjectName(QString::fromUtf8("pushButton_Add"));
-        pushButton_Add->setGeometry(QRect(30, 120, 91, 24));
+        pushButton_Add->setGeometry(QRect(30, 130, 91, 24));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 892, 22));
+        menubar->setGeometry(QRect(0, 0, 971, 22));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));

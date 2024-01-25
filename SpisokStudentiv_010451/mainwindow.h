@@ -31,6 +31,8 @@ private slots:
 
     void removeLastRow();
 
+    void updateTable();
+
 private:
     Ui::MainWindow *ui;
 };
