@@ -1,0 +1,5 @@
+C:/Users/User/Documents/010430_KhrestikiNoliki/cmake-build-debug/CMakeFiles/010430_KhrestikiNoliki.dir
+C:/Users/User/Documents/010430_KhrestikiNoliki/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/010430_KhrestikiNoliki/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Documents/010430_KhrestikiNoliki/cmake-build-debug/CMakeFiles/010430_KhrestikiNoliki_autogen_timestamp_deps.dir
+C:/Users/User/Documents/010430_KhrestikiNoliki/cmake-build-debug/CMakeFiles/010430_KhrestikiNoliki_autogen.dir
