@@ -27,20 +27,20 @@ MainWindow::~MainWindow()
 
 void MainWindow::checkWinCondition()
 {
-    if((ui->pushButton_11->text() == ui->pushButton_12->text() && ui->pushButton_11->text() == ui->pushButton_13->text()) ||
-       (ui->pushButton_11->text() == ui->pushButton_22->text() && ui->pushButton_11->text() == ui->pushButton_33->text()) ||
-       (ui->pushButton_11->text() == ui->pushButton_31->text() && ui->pushButton_11->text() == ui->pushButton_31->text()) ||
+    if((ui->pushButton_11->text() == ui->pushButton_12->text() && ui->pushButton_11->text() == ui->pushButton_13->text() && ui->pushButton_11->text() != "") ||
+       (ui->pushButton_11->text() == ui->pushButton_22->text() && ui->pushButton_11->text() == ui->pushButton_33->text() && ui->pushButton_11->text() != "") ||
+       (ui->pushButton_11->text() == ui->pushButton_31->text() && ui->pushButton_11->text() == ui->pushButton_31->text() && ui->pushButton_11->text() != "") ||
 
-       (ui->pushButton_12->text() == ui->pushButton_22->text() && ui->pushButton_12->text() == ui->pushButton_32->text()) ||
+       (ui->pushButton_12->text() == ui->pushButton_22->text() && ui->pushButton_12->text() == ui->pushButton_32->text() && ui->pushButton_12->text() != "") ||
 
-       (ui->pushButton_13->text() == ui->pushButton_23->text() && ui->pushButton_13->text() == ui->pushButton_33->text()) ||
-       (ui->pushButton_13->text() == ui->pushButton_22->text() && ui->pushButton_13->text() == ui->pushButton_31->text()) ||
+       (ui->pushButton_13->text() == ui->pushButton_23->text() && ui->pushButton_13->text() == ui->pushButton_33->text() && ui->pushButton_13->text() != "") ||
+       (ui->pushButton_13->text() == ui->pushButton_22->text() && ui->pushButton_13->text() == ui->pushButton_31->text() && ui->pushButton_13->text() != "") ||
 
-       (ui->pushButton_21->text() == ui->pushButton_22->text() && ui->pushButton_21->text() == ui->pushButton_23->text()) ||
+       (ui->pushButton_21->text() == ui->pushButton_22->text() && ui->pushButton_21->text() == ui->pushButton_23->text() && ui->pushButton_21->text() != "") ||
 
-       (ui->pushButton_31->text() == ui->pushButton_32->text() && ui->pushButton_31->text() == ui->pushButton_33->text())) {
-        if( turn == "×" ) ui->pushButtonWin->setText("\"◎\" wins!");
-        else ui->pushButtonWin->setText("\"×\" wins!");
+       (ui->pushButton_31->text() == ui->pushButton_32->text() && ui->pushButton_31->text() == ui->pushButton_33->text() && ui->pushButton_31->text() != "")) {
+        if( turn == "×" ) ui->pushButtonWin->setText("\"×\" wins!");
+        else ui->pushButtonWin->setText("\"◎\" wins!");
         ui->pushButtonWin->setVisible(true);
     }
 
