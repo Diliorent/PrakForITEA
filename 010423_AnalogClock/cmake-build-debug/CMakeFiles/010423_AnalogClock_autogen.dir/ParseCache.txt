@@ -708,6 +708,6 @@ C:/Qt_projects/010423_AnalogClock/mainwindow.h
  mdp:C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/6.6.2/mingw_64/include/QtWidgets/qwidget.h
 C:/Qt_projects/010423_AnalogClock/Clock.cpp
+C:/Qt_projects/010423_AnalogClock/main.cpp
 C:/Qt_projects/010423_AnalogClock/mainwindow.cpp
  uic:./ui_mainwindow.h
-C:/Qt_projects/010423_AnalogClock/main.cpp

@@ -22,20 +22,28 @@ void Clock::paintEvent(QPaintEvent *) {
     static const QPoint hourHand[4] = {
             QPoint(5, 14),
             QPoint(-5, 14),
-            QPoint(-4, -71),
-            QPoint(4, -71)
+            QPoint(-4, -70),
+            QPoint(4, -70)
     };
 
     static const QPoint minuteHand[4] = {
             QPoint(4, 14),
             QPoint(-4, 14),
-            QPoint(-3, -89),
-            QPoint(3, -89)
+            QPoint(-3, -90),
+            QPoint(3, -90)
+    };
+
+    static const QPoint secondsHand[4] = {
+            QPoint(1, 14),
+            QPoint(-1, 14),
+            QPoint(-1, -90),
+            QPoint(1, -90)
     };
 
     // Визначення кольорів для вказівників годин, хвилин та секунд
     const QColor hourColor(palette().color(QPalette::Text));
     const QColor minuteColor(palette().color(QPalette::Text));
+    const QColor secondsColor(palette().color(QPalette::Accent));
 
     // Визначення розміру годинника
     int side = qMin(width(), height() - 20);
@@ -77,6 +85,14 @@ void Clock::paintEvent(QPaintEvent *) {
         painter.drawLine(92, 0, 96, 0);
         painter.rotate(6.0);
     }
+
+    painter.setBrush(secondsColor);
+    painter.save();
+    painter.rotate(6.0 * time.second());
+    painter.drawConvexPolygon(secondsHand, 4);
+    painter.drawEllipse(-3, -3, 6, 6);
+    painter.drawEllipse(-5, -68, 10, 10);
+    painter.restore();
 
     // Додавання цифрового годинника
     painter.resetTransform();
