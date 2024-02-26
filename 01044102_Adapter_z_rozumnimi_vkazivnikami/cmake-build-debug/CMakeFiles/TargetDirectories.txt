@@ -1,0 +1,3 @@
+D:/Git/ITEA/HW/01044102_Adapter_z_rozumnimi_vkazivnikami/cmake-build-debug/CMakeFiles/01044102_Adapter_z_rozumnimi_vkazivnikami.dir
+D:/Git/ITEA/HW/01044102_Adapter_z_rozumnimi_vkazivnikami/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git/ITEA/HW/01044102_Adapter_z_rozumnimi_vkazivnikami/cmake-build-debug/CMakeFiles/rebuild_cache.dir
