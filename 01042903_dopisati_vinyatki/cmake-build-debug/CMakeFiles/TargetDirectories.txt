@@ -1,0 +1,3 @@
+D:/Git/ITEA/HW/01042903_dopisati_vinyatki/cmake-build-debug/CMakeFiles/01042903_dopisati_vinyatki.dir
+D:/Git/ITEA/HW/01042903_dopisati_vinyatki/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git/ITEA/HW/01042903_dopisati_vinyatki/cmake-build-debug/CMakeFiles/rebuild_cache.dir
