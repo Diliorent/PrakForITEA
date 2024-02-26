@@ -1,0 +1,9 @@
+D:/ITEA/words/cmake-build-debug/CMakeFiles/words.dir
+D:/ITEA/words/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ITEA/words/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/ITEA/words/cmake-build-debug/CMakeFiles/list_install_components.dir
+D:/ITEA/words/cmake-build-debug/CMakeFiles/install.dir
+D:/ITEA/words/cmake-build-debug/CMakeFiles/install/local.dir
+D:/ITEA/words/cmake-build-debug/CMakeFiles/install/strip.dir
+D:/ITEA/words/cmake-build-debug/CMakeFiles/words_autogen_timestamp_deps.dir
+D:/ITEA/words/cmake-build-debug/CMakeFiles/words_autogen.dir
