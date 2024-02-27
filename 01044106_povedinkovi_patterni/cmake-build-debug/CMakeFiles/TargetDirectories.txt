@@ -1,0 +1,3 @@
+D:/Git/ITEA/HW/01044106_povedinkovi_patterni/cmake-build-debug/CMakeFiles/01044106_povedinkovi_patterni.dir
+D:/Git/ITEA/HW/01044106_povedinkovi_patterni/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git/ITEA/HW/01044106_povedinkovi_patterni/cmake-build-debug/CMakeFiles/rebuild_cache.dir
