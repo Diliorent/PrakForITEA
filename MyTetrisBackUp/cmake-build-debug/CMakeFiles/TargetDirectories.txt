@@ -1,0 +1,5 @@
+C:/Users/User/Documents/scgsdf/cmake-build-debug/CMakeFiles/scgsdf.dir
+C:/Users/User/Documents/scgsdf/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/scgsdf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Documents/scgsdf/cmake-build-debug/CMakeFiles/scgsdf_autogen_timestamp_deps.dir
+C:/Users/User/Documents/scgsdf/cmake-build-debug/CMakeFiles/scgsdf_autogen.dir
