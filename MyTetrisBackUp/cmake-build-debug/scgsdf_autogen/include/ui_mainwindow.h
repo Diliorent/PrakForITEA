@@ -34,10 +34,10 @@ public:
     QTableWidget *tableWidget_2;
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
-    QLabel *label_Score;
     QHBoxLayout *horizontalLayout;
     QPushButton *pushButton_NewGame;
     QPushButton *pushButton_Exit;
+    QLabel *label_Score;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -52,7 +52,7 @@ public:
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setEnabled(true);
-        pushButton->setGeometry(QRect(20, 40, 81, 41));
+        pushButton->setGeometry(QRect(10, 30, 81, 41));
         tableWidget = new QTableWidget(centralwidget);
         tableWidget->setObjectName(QString::fromUtf8("tableWidget"));
         tableWidget->setEnabled(true);
@@ -78,18 +78,13 @@ public:
         QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
         tableWidget_2->setVerticalHeaderItem(0, __qtablewidgetitem1);
         tableWidget_2->setObjectName(QString::fromUtf8("tableWidget_2"));
-        tableWidget_2->setGeometry(QRect(10, 330, 121, 61));
+        tableWidget_2->setGeometry(QRect(610, 150, 121, 61));
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
         verticalLayoutWidget->setGeometry(QRect(110, 180, 251, 80));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label_Score = new QLabel(verticalLayoutWidget);
-        label_Score->setObjectName(QString::fromUtf8("label_Score"));
-
-        verticalLayout->addWidget(label_Score);
-
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         pushButton_NewGame = new QPushButton(verticalLayoutWidget);
@@ -105,6 +100,9 @@ public:
 
         verticalLayout->addLayout(horizontalLayout);
 
+        label_Score = new QLabel(centralwidget);
+        label_Score->setObjectName(QString::fromUtf8("label_Score"));
+        label_Score->setGeometry(QRect(10, 80, 249, 36));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -128,9 +126,9 @@ public:
         ___qtablewidgetitem->setText(QCoreApplication::translate("MainWindow", "1", nullptr));
         QTableWidgetItem *___qtablewidgetitem1 = tableWidget_2->verticalHeaderItem(0);
         ___qtablewidgetitem1->setText(QCoreApplication::translate("MainWindow", "1", nullptr));
-        label_Score->setText(QCoreApplication::translate("MainWindow", "Your score:", nullptr));
         pushButton_NewGame->setText(QCoreApplication::translate("MainWindow", "Start new game", nullptr));
         pushButton_Exit->setText(QCoreApplication::translate("MainWindow", "Exit", nullptr));
+        label_Score->setText(QCoreApplication::translate("MainWindow", "Your score:", nullptr));
     } // retranslateUi
 
 };

@@ -22,7 +22,6 @@ public:
     };
     int currentPosition[2] = {0, 0};
     bool isStarted = false;
-    float level = 1;
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void updateTable();

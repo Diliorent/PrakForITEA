@@ -9,6 +9,7 @@ void TetrixField::updateField()
 }
 TetrixField::TetrixField()
 {
+
     for ( int row = 0; row < 20; ++row ) {
         for ( int col = 0; col < 10; ++col ) {
             field[row][col] = 0;
@@ -52,6 +53,9 @@ void TetrixField::checkForTetris()
             }
             if( col == 9 ) {
                 clearRow(row);
+                score += 100 / level;
+                level *= 0.95;
+
             }
         }
 
@@ -65,6 +69,7 @@ void TetrixField::clearRow(unsigned int clearRow)
             field[row][col] = field[row - 1][col];
         }
     }
+
 }
 void TetrixField::startNewGame()
 {

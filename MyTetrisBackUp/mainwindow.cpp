@@ -9,9 +9,10 @@ MainWindow::MainWindow(QWidget* parent)
     this->setFixedSize(473,503);
     ui->pushButton_NewGame->setVisible(false);
     ui->pushButton_Exit->setVisible(false);
-    ui->label_Score->setVisible(false);
+    ui->label_Score->setVisible(true);
     ui->tableWidget->setVisible(false);
     ui->tableWidget_2->move(1000, 1000);
+//    QTimer* timer = new QTimer(this); // Создание таймера
 
     connect(ui->pushButton_Exit, &QPushButton::clicked, this, &MainWindow::close);
 //    QTimer* timer = new QTimer(this); // Создание таймера
@@ -30,18 +31,19 @@ void MainWindow::on_pushButton_clicked()
 {
     if (!isStarted) {
         updateTable();
-        QTimer* timer = new QTimer(this); // Создание таймера
+//        QTimer* timer = new QTimer(this); // Создание таймера
         connect(timer, SIGNAL(timeout()), this, SLOT(onTimer())); // Подключение сигнала к слоту
 
-        timer->start(1000 * level); // Запуск таймера с интервалом 1000 миллисекунд (1 секунда)
+        timer->start(1000 * tetrix_field.level); // Запуск таймера с интервалом 1000 миллисекунд (1 секунда)
         isStarted = true;
     }
 }
 void MainWindow::on_pushButton_NewGame_clicked()
 {
+    tetrix_field.level = 1;
     ui->pushButton_NewGame->setVisible(false);
     ui->pushButton_Exit->setVisible(false);
-    ui->label_Score->setVisible(false);
+//    ui->label_Score->setVisible(false);
 
     ui->tableWidget->setVisible(true);
     ui->pushButton->setVisible(true);
@@ -134,6 +136,7 @@ void MainWindow::keyPressEvent(QKeyEvent* event)
 void MainWindow::updateField() // Заповнює поле
 {
     tetrix_field.checkForTetris();
+    ui->label_Score->setText("Your score: " + QString::number(tetrix_field.score));
     for ( int row = 0; row < 20; ++row ) {
         for ( int col = 0; col < 10; ++col ) {
             switch (tetrix_field.field[row][col]) {
@@ -228,13 +231,13 @@ void MainWindow::rightCollisionCheck()
 }
 void MainWindow::GAMEOVER()
 {
-    ui->pushButton->setText("ops");
+//    ui->pushButton->setText("ops");
     timer->stop();
     tetrix_field.startNewGame();
     ui->tableWidget->setVisible(false);
     ui->pushButton->setVisible(false);
 
-    ui->label_Score->setVisible(true);
+//    ui->label_Score->setVisible(true);
     ui->pushButton_Exit->setVisible(true);
     ui->pushButton_NewGame->setVisible(true);
 

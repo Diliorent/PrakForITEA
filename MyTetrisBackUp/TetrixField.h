@@ -8,10 +8,11 @@
 #include <QColor>
 class TetrixField{
 public:
-        unsigned int field[24][10];
-        unsigned int needToClear;
-
-        TetrixField();
+    unsigned int field[24][10];
+    unsigned int needToClear;
+    int score = 0;
+    float level = 1;
+    TetrixField();
 
 //    struct myCell{
 //      unsigned int row;
@@ -24,7 +25,6 @@ public:
     void checkForTetris();
     void clearRow(unsigned int clearRow);
     void startNewGame();
-
 
 };
 

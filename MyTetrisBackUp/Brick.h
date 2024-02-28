@@ -15,6 +15,7 @@ class Brick{
       neZyu = 6,
       te = 7
     };
+    explicit Brick(int type);
 };
 
 #endif //SCGSDF_BRICK_H
