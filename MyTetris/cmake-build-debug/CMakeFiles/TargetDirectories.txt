@@ -1,0 +1,9 @@
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/MyTetris.dir
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/install.dir
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/install/local.dir
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/install/strip.dir
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/MyTetris_autogen_timestamp_deps.dir
+C:/Qt_projects/MyTetris/cmake-build-debug/CMakeFiles/MyTetris_autogen.dir
